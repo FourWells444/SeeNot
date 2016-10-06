@@ -2,3 +2,5 @@
 #dictionaries
 out/
 logs/
+libs-javadocs/
+libs-srcs/
