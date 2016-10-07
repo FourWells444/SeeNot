@@ -1,17 +1,22 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="SeeNot:jar">
+  <artifact name="SeeNot:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/SeeNot_jar</output-path>
     <root id="root">
-      <element id="directory" name="libs">
-        <element id="file-copy" path="$PROJECT_DIR$/libs/log4j-api-2.6.2.jar" />
-        <element id="file-copy" path="$PROJECT_DIR$/libs/log4j-core-2.6.2.jar" />
-        <element id="file-copy" path="$PROJECT_DIR$/libs/lwjgl.jar" />
-      </element>
       <element id="archive" name="SeeNot.jar">
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/resources/META-INF/MANIFEST.MF" />
         </element>
         <element id="module-output" name="SeeNot" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="log4j" />
+        <element id="library" level="project" name="lwjgl" />
+      </element>
+      <element id="directory" name="res">
+        <element id="dir-copy" path="$PROJECT_DIR$/res" />
+      </element>
+      <element id="directory" name="native">
+        <element id="dir-copy" path="$PROJECT_DIR$/native" />
       </element>
     </root>
   </artifact>

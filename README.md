@@ -4,7 +4,7 @@
 
 开发进度：目录结构都没弄完
 
-任务：
+	任务：
 <table>
     <tr>
         <td>Ema</td>
@@ -15,3 +15,7 @@
 		<td>Log&框架</td>
     </tr>
 </table>
+
+目前的jar启动指令:
+
+	java -Djava.library.path=native\ -jar SeeNot.jar
